@@ -1,0 +1,11 @@
+#dequeue
+from collections import deque
+p=deque()
+p.append(5)
+p.append(10)
+p.append(15)
+print(p)
+p.appendleft(25)
+print(p)
+p.popleft()
+print(p)
